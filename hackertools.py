@@ -10,8 +10,6 @@ if platform.system() == 'Windows':
 elif platform.system() == 'Linux':
     os.system('clear')
 
-python_version = sys.version_info[0]
-
 hackerapi = {1: 'https://api.hackertarget.com/mtr/?q=',
              2: 'https://api.hackertarget.com/nping/?q=',
              3: 'https://api.hackertarget.com/dnslookup/?q=',
